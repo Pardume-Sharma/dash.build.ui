@@ -1,0 +1,110 @@
+{
+  "node": {
+    "7f45fa8f2bb9a58aa38c4c2bcbda8a2eb616d1f550": {
+      "workers": {
+        "app/_not-found/page": {
+          "moduleId": "[project]/ui/.next-internal/server/app/_not-found/page/actions.js { ACTIONS_MODULE0 => \"[project]/ui/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/ui/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/ui/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "collectKeylessMetadata",
+          "filename": "ui/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        }
+      },
+      "layer": {
+        "app/_not-found/page": "rsc"
+      },
+      "exportedName": "collectKeylessMetadata",
+      "filename": "ui/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+    },
+    "7fa6594d2aab91ba4651dc396a29e27225ea787030": {
+      "workers": {
+        "app/_not-found/page": {
+          "moduleId": "[project]/ui/.next-internal/server/app/_not-found/page/actions.js { ACTIONS_MODULE0 => \"[project]/ui/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/ui/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/ui/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "formatMetadataHeaders",
+          "filename": "ui/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+        }
+      },
+      "layer": {
+        "app/_not-found/page": "rsc"
+      },
+      "exportedName": "formatMetadataHeaders",
+      "filename": "ui/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js"
+    },
+    "7f6c8ce7b26aae91a6ddc2951c1ab460bcad386ada": {
+      "workers": {
+        "app/_not-found/page": {
+          "moduleId": "[project]/ui/.next-internal/server/app/_not-found/page/actions.js { ACTIONS_MODULE0 => \"[project]/ui/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/ui/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/ui/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "syncKeylessConfigAction",
+          "filename": "ui/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        }
+      },
+      "layer": {
+        "app/_not-found/page": "action-browser"
+      },
+      "exportedName": "syncKeylessConfigAction",
+      "filename": "ui/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+    },
+    "7fb7e9dcc3b85599e9ac799328621b0bdbe8b29e1c": {
+      "workers": {
+        "app/_not-found/page": {
+          "moduleId": "[project]/ui/.next-internal/server/app/_not-found/page/actions.js { ACTIONS_MODULE0 => \"[project]/ui/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/ui/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/ui/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "createOrReadKeylessAction",
+          "filename": "ui/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        }
+      },
+      "layer": {
+        "app/_not-found/page": "action-browser"
+      },
+      "exportedName": "createOrReadKeylessAction",
+      "filename": "ui/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+    },
+    "7fba120aa3fd7e17a0bdc3cbf5b0b784d661430a5d": {
+      "workers": {
+        "app/_not-found/page": {
+          "moduleId": "[project]/ui/.next-internal/server/app/_not-found/page/actions.js { ACTIONS_MODULE0 => \"[project]/ui/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/ui/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/ui/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "deleteKeylessAction",
+          "filename": "ui/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        }
+      },
+      "layer": {
+        "app/_not-found/page": "action-browser"
+      },
+      "exportedName": "deleteKeylessAction",
+      "filename": "ui/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+    },
+    "7fdbdce60bbadbe71926f2c1215bbe070e048769e1": {
+      "workers": {
+        "app/_not-found/page": {
+          "moduleId": "[project]/ui/.next-internal/server/app/_not-found/page/actions.js { ACTIONS_MODULE0 => \"[project]/ui/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/ui/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/ui/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "detectKeylessEnvDriftAction",
+          "filename": "ui/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+        }
+      },
+      "layer": {
+        "app/_not-found/page": "action-browser"
+      },
+      "exportedName": "detectKeylessEnvDriftAction",
+      "filename": "ui/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js"
+    },
+    "7fcfb11a109cc99aabdac28e3a216ee719181b90eb": {
+      "workers": {
+        "app/_not-found/page": {
+          "moduleId": "[project]/ui/.next-internal/server/app/_not-found/page/actions.js { ACTIONS_MODULE0 => \"[project]/ui/node_modules/@clerk/nextjs/dist/esm/server/keyless-custom-headers.js [app-rsc] (ecmascript)\", ACTIONS_MODULE1 => \"[project]/ui/node_modules/@clerk/nextjs/dist/esm/app-router/keyless-actions.js [app-rsc] (ecmascript)\", ACTIONS_MODULE2 => \"[project]/ui/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "exportedName": "invalidateCacheAction",
+          "filename": "ui/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
+        }
+      },
+      "layer": {
+        "app/_not-found/page": "action-browser"
+      },
+      "exportedName": "invalidateCacheAction",
+      "filename": "ui/node_modules/@clerk/nextjs/dist/esm/app-router/server-actions.js"
+    }
+  },
+  "edge": {}
+}

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 16, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/ui/src/middleware.ts"],"sourcesContent":["import { clerkMiddleware } from '@clerk/nextjs/server';\n\n// Use simple Clerk middleware - route protection handled by components\nexport default clerkMiddleware();\n\nexport const config = {\n  matcher: ['/((?!.*\\\\..*|_next).*)', '/', '/(api|trpc)(.*)'],\n};"],"names":[],"mappings":";;;;;;AAAA;;uCAGe,IAAA,8MAAe;AAEvB,MAAM,SAAS;IACpB,SAAS;QAAC;QAA0B;QAAK;KAAkB;AAC7D"}}]
+}

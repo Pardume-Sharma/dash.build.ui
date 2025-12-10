@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="3" failures="3" errors="0" time="0.506">
+  <testsuite name="API Library" errors="0" failures="3" skipped="0" timestamp="2025-12-10T14:33:06" time="0.21" tests="3">
+    <testcase classname="API Library › GET requests" name="should make successful GET request" time="0.002">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: StringContaining &quot;/test-endpoint&quot;, ObjectContaining {&quot;headers&quot;: ObjectContaining {&quot;Content-Type&quot;: &quot;application/json&quot;}, &quot;method&quot;: &quot;GET&quot;}
+
+Number of calls: 0
+    at Object.toHaveBeenCalledWith (/Users/PASHARMA2501/Desktop/hackathon/ui/src/__tests__/unit/lib/api.test.ts:27:25)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+    </testcase>
+    <testcase classname="API Library › GET requests" name="should handle GET request errors" time="0">
+      <failure>Error: expect(received).rejects.toThrow()
+
+Matcher error: received value must be a promise or a function returning a promise
+
+Received has value: undefined
+    at Object.toThrow (/Users/PASHARMA2501/Desktop/hackathon/ui/node_modules/expect/build/index.js:204:13)
+    at Object.toThrow (/Users/PASHARMA2501/Desktop/hackathon/ui/src/__tests__/unit/lib/api.test.ts:53:53)
+    at Promise.then.completed (/Users/PASHARMA2501/Desktop/hackathon/ui/node_modules/jest-circus/build/utils.js:298:28)
+    at new Promise (&lt;anonymous&gt;)
+    at callAsyncCircusFn (/Users/PASHARMA2501/Desktop/hackathon/ui/node_modules/jest-circus/build/utils.js:231:10)
+    at _callCircusTest (/Users/PASHARMA2501/Desktop/hackathon/ui/node_modules/jest-circus/build/run.js:316:40)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at _runTest (/Users/PASHARMA2501/Desktop/hackathon/ui/node_modules/jest-circus/build/run.js:252:3)
+    at _runTestsForDescribeBlock (/Users/PASHARMA2501/Desktop/hackathon/ui/node_modules/jest-circus/build/run.js:126:9)
+    at _runTestsForDescribeBlock (/Users/PASHARMA2501/Desktop/hackathon/ui/node_modules/jest-circus/build/run.js:121:9)
+    at _runTestsForDescribeBlock (/Users/PASHARMA2501/Desktop/hackathon/ui/node_modules/jest-circus/build/run.js:121:9)
+    at run (/Users/PASHARMA2501/Desktop/hackathon/ui/node_modules/jest-circus/build/run.js:71:3)
+    at runAndTransformResultsToJestFormat (/Users/PASHARMA2501/Desktop/hackathon/ui/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:122:21)
+    at jestAdapter (/Users/PASHARMA2501/Desktop/hackathon/ui/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:79:19)
+    at runTestInternal (/Users/PASHARMA2501/Desktop/hackathon/ui/node_modules/jest-runner/build/runTest.js:367:16)
+    at runTest (/Users/PASHARMA2501/Desktop/hackathon/ui/node_modules/jest-runner/build/runTest.js:444:34)</failure>
+    </testcase>
+    <testcase classname="API Library › POST requests" name="should make successful POST request" time="0.001">
+      <failure>Error: expect(jest.fn()).toHaveBeenCalledWith(...expected)
+
+Expected: StringContaining &quot;/test-endpoint&quot;, ObjectContaining {&quot;body&quot;: &quot;{\&quot;name\&quot;:\&quot;Test Item\&quot;}&quot;, &quot;headers&quot;: ObjectContaining {&quot;Content-Type&quot;: &quot;application/json&quot;}, &quot;method&quot;: &quot;POST&quot;}
+
+Number of calls: 0
+    at Object.toHaveBeenCalledWith (/Users/PASHARMA2501/Desktop/hackathon/ui/src/__tests__/unit/lib/api.test.ts:72:25)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
